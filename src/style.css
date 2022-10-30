@@ -1,3 +1,149 @@
-h1 {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/781/original/assure_google.jpg?1667143944");
+  background-repeat: center;
+  background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 0px;
+}
+.container {
+  margin-top: 250px;
+  width: 800px;
+  width: 100%;
+}
+.regform {
+  width: 800px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: auto;
+  color: black;
+  padding: 40px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+}
+.main {
+  width: 800px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: auto;
+}
+form {
+  padding: 40px;
+}
+#name {
+  width: 100%;
+  height: 100px;
+}
+.name {
+  margin-left: 25px;
+  margin-top: 30px;
+  width: 125px;
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+}
+.firstname {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 18px;
+}
+.lastname {
+  position: relative;
+  left: 417px;
+  top: -80px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 18px;
+}
+
+.firstlabel {
+  position: relative;
+  color: gray;
+  text-transform: capitalize;
+  left: 203px;
+  top: -40px;
+  font-size: 14px;
+}
+.lastlabel {
+  position: relative;
+  color: gray;
+  text-transform: capitalize;
+  left: 500px;
+  top: -75px;
+  font-size: 14px;
+}
+.age {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 18px;
+  color: black;
+}
+.gender {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 18px;
+  color: black;
+}
+.email {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 18px;
+  color: black;
+}
+
+.option {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 480px;
+  height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 18px;
+  color: black;
+  outline: none;
+  overflow: hidden;
+}
+.option option {
+  font-size: 18px;
+}
+button {
+  background-color: #008cba;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 10px;
+  height: 100%;
+  width: 50%;
+  border-radius: 20px;
+  border: 2px solid #ffff;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: blueviolet;
 }

@@ -16,7 +16,58 @@
   </head>
   <body>
     <div class="container">
-      <h1>Hello World</h1>
+      <div class="regform">
+        <h1>Registration Form</h1>
+      </div>
+      <div class="main">
+        <form>
+          <div id="name">
+            <h2 class="name">Name</h2>
+            <input class="firstname" type="text" name="first_name" /><br />
+            <label class="firstlabel">First name</label>
+            <input class="lastname" type="text" name="last_name" /><br />
+            <label class="lastlabel">Last name</label>
+          </div>
+          <h2 class="name">Age</h2>
+          <input class="age" type="text" name="age" />
+          <h2 class="name">Gender</h2>
+          <select class="option" name="subject">
+            <option disabled="disabled" selected="selected">
+              --Choose Option
+            </option>
+            <option>Women</option>
+            <option>Man</option>
+            <option>Prefer not to respond</option>
+          </select>
+          <h2 class="name">Email</h2>
+          <input class="email" type="text" name="email" />
+          <h2 class="name">Event</h2>
+          <select class="option" name="subject">
+            <option disabled="disabled" selected="selected">
+              --Choose Option
+            </option>
+            <option>Azure</option>
+            <option>aws</option>
+            <option>Google</option>
+          </select>
+          <h2 class="name">Type</h2>
+          <select class="option" name="subject">
+            <option disabled="disabled" selected="selected">
+              --Choose Option
+            </option>
+            <option>Azure 1</option>
+            <option>Azure 2</option>
+            <option>Azure 3</option>
+            <option>aws 1</option>
+            <option>aws 2</option>
+            <option>aws 3</option>
+            <option>Google 1</option>
+            <option>Google 2</option>
+            <option>Google 3</option>
+          </select>
+          <button type="submit">Register</button>
+        </form>
+      </div>
     </div>
     <script src="src/app.js"></script>
   </body>
